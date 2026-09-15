@@ -8,6 +8,7 @@ I build ML and LLM applications end to end: data, training, evaluation and a ser
 
 | Project | What it is |
 |---|---|
+| [tk-rf-rag](https://github.com/alekseevpavel04/tk-rf-rag) | RAG Q&A over the Russian Labor Code: multilingual-e5 embeddings, Qdrant / FAISS behind one interface, FastAPI, answers cite articles and refuse when the context has no answer; 30-question eval with Hit@k / MRR, LLM-as-a-judge faithfulness and a chunk-size experiment (Hit@5 1.000, MRR@5 0.980) |
 | [Anime Video Super-Resolution](https://github.com/alekseevpavel04/Anime-Video-Super-Resolution-via-GAN-Upscaling) | Master's thesis: ×2 anime video upscaling; RRDBNet GAN, Swin2SR and ESRT compared under three degradation pipelines, TensorRT video inference |
 | [vk_claude_bot](https://github.com/alekseevpavel04/vk_claude_bot) | Claude Agent SDK assistant in VK chats with a tool whitelist, SSRF protection and a resource-capped Docker deployment |
 | [co2_detector](https://github.com/alekseevpavel04/co2_detector) | Battery-powered CO₂ / temperature / humidity monitor built end to end: ESP32-S3 + SCD41 + e-Paper, power-optimised C++ firmware (PlatformIO) with native unit tests, 3D-printed OpenSCAD case |
@@ -27,7 +28,7 @@ More PRs under review in Prefect, ZenML and Feast.
 
 ## Stack
 
-Python · PyTorch · Hugging Face Transformers · scikit-learn · FastAPI · Docker · Hydra · Weights & Biases · TensorRT · LLM APIs (Claude Agent SDK, Gemini)
+Python · PyTorch · Hugging Face Transformers · sentence-transformers · RAG (Qdrant, FAISS) · scikit-learn · FastAPI · Docker · Hydra · Weights & Biases · TensorRT · LLM APIs (Claude Agent SDK, Gemini)
 
 ## Contacts
 
