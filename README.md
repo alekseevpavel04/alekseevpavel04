@@ -10,6 +10,7 @@ I build ML and LLM applications end to end: data, training, evaluation and a ser
 |---|---|
 | [Anime Video Super-Resolution](https://github.com/alekseevpavel04/Anime-Video-Super-Resolution-via-GAN-Upscaling) | Master's thesis: ×2 anime video upscaling; RRDBNet GAN, Swin2SR and ESRT compared under three degradation pipelines, TensorRT video inference |
 | [vk_claude_bot](https://github.com/alekseevpavel04/vk_claude_bot) | Claude Agent SDK assistant in VK chats with a tool whitelist, SSRF protection and a resource-capped Docker deployment |
+| [co2_detector](https://github.com/alekseevpavel04/co2_detector) | Battery-powered CO₂ / temperature / humidity monitor built end to end: ESP32-S3 + SCD41 + e-Paper, power-optimised C++ firmware (PlatformIO) with native unit tests, 3D-printed OpenSCAD case |
 | [todaysmenu](https://github.com/alekseevpavel04/todaysmenu) | Telegram recipe bot: Qwen2.5 query rewriting, allrecipes.com scraping, streaming, LLM-as-a-judge benchmark |
 | [ASR with PyTorch](https://github.com/alekseevpavel04/Automatic-Speech-Recognition-ASR-with-PyTorch) | DeepSpeech2-style speech recognition on LibriSpeech with KenLM beam search; WER 24.4 on test-other |
 | [ai_text_detector](https://github.com/alekseevpavel04/ai_text_detector) | FastAPI service and Telegram bot for paragraph-level AI-text detection with a pretrained DeBERTa classifier |
